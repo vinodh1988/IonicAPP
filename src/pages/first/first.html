@@ -1,0 +1,35 @@
+<!--
+  Generated template for the FirstPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Messenger APP HOME</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+ <ion-list>
+  <ion-item (click)="handleFriends()">
+    <ion-icon name="contacts" item-start></ion-icon>
+      Friends
+  </ion-item>
+  <ion-item>
+    <ion-icon name="mail" item-start></ion-icon>
+      Post a Message
+  </ion-item>
+  <ion-item>
+    <ion-icon name="chatboxes" item-start></ion-icon>
+      Messages
+  </ion-item>
+  <ion-item (click)="handleMobile()">
+    <ion-icon  name="laptop" item-start></ion-icon>
+      Mobile Feature
+  </ion-item>
+</ion-list>
+</ion-content>
